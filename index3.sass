@@ -1,2 +1,247 @@
 .container-fluid
 	height: auto
+	#box3
+		width: 86%
+		height: auto
+		float: left
+		margin-left: 8%
+		font-family: arial
+		.box31
+			height: 40px
+			width: 100%
+			border: 1px solid #ddd
+			color: #ddd
+			a
+				text-decoration: none
+				color: gray
+
+			h1
+				margin: 0
+				float: left
+				line-height: 40px
+				margin-left: 1%
+				@media all and(max-width: 1024px)
+					display: none
+			h4
+				margin: 0
+				line-height: 40px
+				font-size: 13px
+				@media all and(max-width: 480px)
+					font-size: 10px	
+			@mixin box31-mau 
+				float: left
+				height: 100%
+				width: 50px
+				background: white
+				border-right: 1px solid #ddd
+				text-align: center
+			img
+				width: 20px
+				margin: 14% 0 0 0
+			
+			.box31-2
+				@include box31-mau
+				background: lightgray
+			
+			.box31-3
+				@include box31-mau
+				width: 9%
+				background: #ddd
+				color: black
+				@media all and(max-width: 480px)
+					width: 15%
+			
+			.box31-4
+				@include box31-mau
+				width: 12%
+			
+			.box31-6
+				@include box31-mau
+				background: white
+			
+			.box31-5
+				@include box31-mau
+				width: 60%
+				h4
+					float: left
+				
+				h1
+					float: right
+					margin-right: 1%
+					@media all and(max-width: 1024px)
+						display: none
+		.box32
+			float: left
+			height: auto
+			width: 100%
+			.box32-2
+				margin-top: 20px
+				float: left
+				width: 22.9%
+				height: 510px
+				margin: 0 0 0 1.5%
+				@media all and(max-width: 768px)
+					height: 400px
+					button
+						display: none
+				@media all and(max-width: 480px)
+					height: 200px
+					width: 45%
+				@media all and(max-width: 320px)
+					height: 300px
+					width: 100%
+				&:hover img
+					opacity: 0.7
+				@media all and(min-width: 1025px)
+					&:hover .hov
+						display: block
+					&:hover .hov2
+						display: block
+				.hov
+					float: left
+					height: 30px
+					width: 30px
+					background: #ddd
+					opacity: 0.8
+					position: absolute
+					z-index: 3
+					margin: 150px 0 0 100px
+					display: none	
+				.hov2
+					float: left
+					height: 30px
+					width: 30px
+					background: #ddd
+					opacity: 0.8
+					position: absolute
+					z-index: 3
+					display: none
+					margin: 150px 0 0 140px
+				a
+					text-decoration: none
+				
+			.sale
+				width: 30px
+				height: 30px
+				position: absolute
+				margin-left: 5px
+				margin-top: 5px
+				z-index: 2
+			img
+				width: 100%
+				height: 300px
+				position: relative
+				z-index: 1
+				margin-top: 15px
+				@media all and(max-width: 768px)
+					height: 200px
+				@media all and(max-width: 480px)
+					height: 150px
+				@media all and(max-width: 320px)
+					height: 255px
+			h5
+				color: gray
+				margin: 0
+				text-align: center
+				margin-top: 10px
+				@media all and(max-width: 480px)
+					font-size: 9px
+					color: black
+				@media all and(max-width: 320px)
+					display: none
+			.sao
+				margin-left: 1%
+				width: 12px
+				height: 12px
+				margin-bottom: 10px
+			.sao2
+				width: 100%
+				height: auto
+				margin-left: 34%
+				@media all and(max-width: 480px)
+					display: none
+			
+			h4	
+				margin: 0
+				color: red
+				text-align: center
+				@media all and(max-width: 480px)
+					font-size: 12px
+			
+			hr
+				width: 100%
+				border: 0.5px solid #ddd
+			button
+				background: lightgray
+				height: 33px
+				width: 43%
+				border: 0.5px solid #ddd
+				border-radius: 15px
+				margin-top: 15px
+				margin-left: 5%
+				margin-bottom: 10px
+				font-size: 12px
+				a
+					text-decoration: none
+					color: gray
+			.button2
+				background: transparent
+				height: 30px
+				width: 44%
+				border: 0.5px solid #ddd
+				border-radius: 15px
+				margin-top: 15px
+				margin-left: 5%
+				font-size: 12px
+			
+			.search
+				width: 15px
+				height: 15px
+				margin: 0
+			
+			.tim
+				width: 25px
+				height: 25px
+				margin: 2px 0 0 2px
+			
+			.qc
+				height: 150px
+				width: 100%
+
+@media all and(max-width: 768px)
+	.box31
+		h1
+			display: none
+		.box31-5
+			h1
+				display: none
+		.box31-3
+			width: 80px
+			h1
+				display: none
+		.box31-4
+			display: none
+	// .box32
+	// 	&:hover .hov2
+	// 		display: none
+	// 	img
+	// 		height: 210px
+	// 	.sao2
+	// 		margin-left: 20%
+@media all and(max-width: 480px)
+	.box31
+		.box31-5
+			display: none
+	.box32
+		.box32-2
+			margin-top: 20px
+			float: left
+			height: 250px
+		img
+			height: 50px			
+		button
+			display: none			
+		.sao
+			width: 7px
+			height: 7px
+			margin-left: -5px
