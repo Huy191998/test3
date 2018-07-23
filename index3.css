@@ -226,31 +226,3 @@
       .container-fluid #box3 .box32 .qc {
         height: 150px;
         width: 100%; }
-
-@media all and (max-width: 768px) {
-  .box31 h1 {
-    display: none; }
-  .box31 .box31-5 h1 {
-    display: none; }
-  .box31 .box31-3 {
-    width: 80px; }
-    .box31 .box31-3 h1 {
-      display: none; }
-  .box31 .box31-4 {
-    display: none; } }
-
-@media all and (max-width: 480px) {
-  .box31 .box31-5 {
-    display: none; }
-  .box32 .box32-2 {
-    margin-top: 20px;
-    float: left;
-    height: 250px; }
-  .box32 img {
-    height: 50px; }
-  .box32 button {
-    display: none; }
-  .box32 .sao {
-    width: 7px;
-    height: 7px;
-    margin-left: -5px; } }
