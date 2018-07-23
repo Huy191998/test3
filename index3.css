@@ -1,2 +1,112 @@
+.container-fluid .main .slide-show .d-block {
+  height: 450px;
+  width: 100%; }
+
+.container-fluid .main .menu .nav-item, .container-fluid .main .menu3 .btn-danger {
+  font-family: Arial; }
+
+.container-fluid .main .menu3 .btn-group {
+  margin-top: 15px; }
+
 .container-fluid {
   height: auto; }
+  .container-fluid .main {
+    background: white;
+    height: 700px;
+    width: 100%; }
+    .container-fluid .main .slide-show {
+      background: red;
+      width: 100%;
+      height: 64%;
+      position: relative; }
+      .container-fluid .main .slide-show .content, .container-fluid .main .slide-show .content1, .container-fluid .main .slide-show .content2 {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        color: white;
+        display: block;
+        text-align: center;
+        width: 500px;
+        height: auto;
+        border: white solid 2px;
+        font-size: 100px; }
+      .container-fluid .main .slide-show .content1, .container-fluid .main .slide-show .content2 {
+        color: white;
+        font-size: 25px;
+        top: 250px;
+        border: none; }
+      .container-fluid .main .slide-show .content2 {
+        top: 320px;
+        display: block;
+        background: white;
+        color: black;
+        width: 180px;
+        height: 50px;
+        text-align: center;
+        margin-left: 180px;
+        line-height: 50px; }
+        .container-fluid .main .slide-show .content2:hover {
+          background: #4693B8; }
+    .container-fluid .main .menu {
+      width: 100%;
+      height: 6%;
+      background: white;
+      border-bottom: #f1f1f1 solid 3px;
+      position: relative; }
+      .container-fluid .main .menu .nav-link {
+        color: black; }
+      .container-fluid .main .menu .nav-item {
+        font-size: 15px; }
+    .container-fluid .main .menu2 {
+      background: white;
+      height: 20%;
+      width: 100%;
+      position: relative;
+      border-bottom: #f1f1f1 solid 3px; }
+      .container-fluid .main .menu2 .form-inline {
+        padding-top: 51px; }
+      .container-fluid .main .menu2 .btn {
+        position: absolute;
+        top: 51px;
+        left: 210px;
+        font-size: 15px;
+        background: white;
+        border: 2px #C8DBDE solid;
+        color: black; }
+        .container-fluid .main .menu2 .btn:hover {
+          color: red; }
+      .container-fluid .main .menu2 .fa {
+        font-size: 30px; }
+      .container-fluid .main .menu2 .cart {
+        position: absolute;
+        left: 1150px;
+        top: 50px;
+        color: black; }
+        .container-fluid .main .menu2 .cart:hover {
+          color: red; }
+      .container-fluid .main .menu2 .logo {
+        position: absolute;
+        bottom: -1px;
+        width: 300px;
+        left: 550px; }
+    .container-fluid .main .menu3 {
+      background: white;
+      height: 10%;
+      width: 100%;
+      border-bottom: #f1f1f1 solid 3px;
+      position: relative; }
+      .container-fluid .main .menu3 .menu31 {
+        width: 50%;
+        height: 100%;
+        background: white;
+        margin-left: 360px; }
+        .container-fluid .main .menu3 .menu31 .btn {
+          background: white; }
+      .container-fluid .main .menu3 .btn-danger {
+        font-size: 25px;
+        width: 100%;
+        height: 100%;
+        display: block; }
+      .container-fluid .main .menu3 .btn-group {
+        border-right: black 3px solid;
+        padding-left: 20px; }
