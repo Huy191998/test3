@@ -11,6 +11,7 @@
 .container-fluid {
   height: auto; }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .container-fluid .main {
     background: white;
     height: 700px;
@@ -455,3 +456,279 @@
         height: 150px;
         width: 100%; }
 >>>>>>> Vinh
+=======
+  .container-fluid #box4 {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #ddd; }
+    .container-fluid #box4 #box4-1 {
+      width: auto;
+      height: auto; }
+      .container-fluid #box4 #box4-1 #box4-1-1, .container-fluid #box4 #box4-1 #box4-1-2 {
+        width: auto;
+        height: auto;
+        margin: 0 0 0 8%; }
+        .container-fluid #box4 #box4-1 #box4-1-1 #chu1, .container-fluid #box4 #box4-1 #box4-1-2 #chu1 {
+          display: block;
+          float: left;
+          width: 80%;
+          margin: 0;
+          padding: 0;
+          font-family: arial;
+          font-size: 18px;
+          margin: 5% 0 0 3%;
+          font-weight: bolder; }
+        .container-fluid #box4 #box4-1 #box4-1-1 #lui, .container-fluid #box4 #box4-1 #box4-1-2 #lui, .container-fluid #box4 #box4-1 #box4-1-1 #tien, .container-fluid #box4 #box4-1 #box4-1-2 #tien {
+          float: left;
+          width: 5%;
+          height: auto;
+          line-height: auto;
+          display: block;
+          background: #ddd;
+          text-align: center;
+          font-size: 20px;
+          color: grey;
+          margin: 4.5% 0 0 0;
+          padding: 0;
+          text-decoration: none; }
+        .container-fluid #box4 #box4-1 #box4-1-1 #tien, .container-fluid #box4 #box4-1 #box4-1-2 #tien {
+          margin-left: 1%; }
+        .container-fluid #box4 #box4-1 #box4-1-1 #ke1, .container-fluid #box4 #box4-1 #box4-1-2 #ke1 {
+          width: 91%;
+          height: 0.5%;
+          background: grey;
+          float: left;
+          margin: 1% 0 0 3%; }
+        .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 {
+          float: left;
+          width: 96.5%;
+          margin: 2% 0 0 0.8%; }
+          .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 {
+            float: left;
+            height: auto; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 {
+              width: 100%;
+              height: 330px;
+              background-image: url(anh/khoi1.jpg);
+              background-size: 100% 100%;
+              float: left;
+              background-repeat: no-repeat; }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1:hover, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1:hover {
+                opacity: 0.8; }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1:hover #icon2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1:hover #icon2, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1:hover #icon3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1:hover #icon3 {
+                display: block; }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon1 {
+                float: left;
+                background: orange;
+                border-radius: 10%;
+                margin: 5% 0 0 5%;
+                border-right: 5px solid orange;
+                border-left: 5px solid orange; }
+                .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon1 #chu3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon1 #chu3 {
+                  color: white;
+                  margin: 0;
+                  padding: 0;
+                  font-family: arial;
+                  font-size: 14px;
+                  font-weight: bolder; }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon2:hover, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon2:hover, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3:hover, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3:hover {
+                border: 1px solid red;
+                background: #FFFF00;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5); }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon2, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 {
+                display: none;
+                float: left;
+                background: black;
+                width: 14%;
+                height: 9%;
+                margin: 62% 0 0 12%;
+                -webkit-transition: ease-in-out 0.5s;
+                -o-transition: ease-in-out 0.5s;
+                transition: ease-in-out 0.5s; }
+                .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon2 #link3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon2 #link3, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 {
+                  width: 100%;
+                  height: 100%; }
+                  .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon2 #link3 #icon2-1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon2 #link3 #icon2-1, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 #icon2-1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 #icon2-1 {
+                    width: 90%;
+                    height: 90%;
+                    margin: 5%; }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3:hover, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3:hover {
+                border: 1px solid red;
+                background: #FFFF00;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5); }
+              .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 {
+                margin: 62% 0 0 4%; }
+                .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 {
+                  width: 100%;
+                  height: 100%; }
+                  .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 #icon3-1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #pics1 #icon3 #link3 #icon3-1 {
+                    width: 80%;
+                    height: 80%;
+                    margin: 10%; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #link2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #link2 {
+              display: block;
+              float: left;
+              width: 100%;
+              text-align: center;
+              text-decoration: none;
+              color: gray;
+              font-size: 100%;
+              font-family: arial;
+              font-weight: bolder;
+              margin: 1% 0 3% 0; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #sao1, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #sao1, .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #sao2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #sao2 {
+              width: 6%;
+              height: 4%;
+              float: left;
+              margin: 0 0 4% 28%; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #sao2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #sao2 {
+              margin: 0 0 4% 3%; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #chu2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #chu2 {
+              display: block;
+              float: left;
+              width: 100%;
+              color: red;
+              font-family: arial;
+              font-size: 100%;
+              text-align: center;
+              margin: 0 0 4% 0;
+              padding: 0; }
+            .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #ke2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #ke2 {
+              width: 100%;
+              height: 2px;
+              background: gray;
+              float: left;
+              margin: 0 0 5% 0; }
+              @media all and (max-width: 1024px) {
+                .container-fluid #box4 #box4-1 #box4-1-1 #box4-1-3 #box4-1-4 #ke2, .container-fluid #box4 #box4-1 #box4-1-2 #box4-1-3 #box4-1-4 #ke2 {
+                  margin: 0 0 15% 0; } }
+      .container-fluid #box4 #box4-1 #box4-1-2 {
+        margin: 0 0 0 3%; }
+    .container-fluid #box4 #box4-2, .container-fluid #box4 #box4-3, .container-fluid #box4 #box4-4 {
+      width: 19.5%;
+      height: auto;
+      float: left;
+      margin: 0 0 0 9.5%; }
+      @media all and (max-width: 480px) {
+        .container-fluid #box4 #box4-2, .container-fluid #box4 #box4-3, .container-fluid #box4 #box4-4 {
+          display: none; } }
+      .container-fluid #box4 #box4-2 #box4-2-1, .container-fluid #box4 #box4-3 #box4-2-1, .container-fluid #box4 #box4-4 #box4-2-1 {
+        width: 100%;
+        height: auto; }
+        .container-fluid #box4 #box4-2 #box4-2-1 #link4, .container-fluid #box4 #box4-3 #box4-2-1 #link4, .container-fluid #box4 #box4-4 #box4-2-1 #link4, .container-fluid #box4 #box4-2 #box4-2-1 #link5, .container-fluid #box4 #box4-3 #box4-2-1 #link5, .container-fluid #box4 #box4-4 #box4-2-1 #link5 {
+          display: block;
+          float: left;
+          width: 55%;
+          font-size: 15px;
+          font-family: arial;
+          font-weight: bolder;
+          background: gray;
+          color: black;
+          border-radius: 10px;
+          padding: 0 0 0 5px;
+          text-decoration: none; }
+          .container-fluid #box4 #box4-2 #box4-2-1 #link4:hover, .container-fluid #box4 #box4-3 #box4-2-1 #link4:hover, .container-fluid #box4 #box4-4 #box4-2-1 #link4:hover, .container-fluid #box4 #box4-2 #box4-2-1 #link5:hover, .container-fluid #box4 #box4-3 #box4-2-1 #link5:hover, .container-fluid #box4 #box4-4 #box4-2-1 #link5:hover {
+            color: orange; }
+        .container-fluid #box4 #box4-2 #box4-2-1 #link5, .container-fluid #box4 #box4-3 #box4-2-1 #link5, .container-fluid #box4 #box4-4 #box4-2-1 #link5 {
+          background: #fff;
+          width: 35%;
+          text-align: center;
+          float: left;
+          display: block;
+          color: gray;
+          margin: 0;
+          padding: 0; }
+    .container-fluid #box4 #box4-3 {
+      margin: 0 0 0 0; }
+    .container-fluid #box4 #box4-4 {
+      margin: 0 0 0 6.5%; }
+    .container-fluid #box4 #box4-5 {
+      float: left;
+      margin: 3% 0 0 8.5%; }
+      .container-fluid #box4 #box4-5 #box4-5-1 {
+        float: left;
+        margin: 0;
+        height: 250px; }
+        .container-fluid #box4 #box4-5 #box4-5-1 #khoi4 {
+          float: left;
+          width: 100%;
+          margin: 10% 0 0 0; }
+          @media all and (max-width: 480px) {
+            .container-fluid #box4 #box4-5 #box4-5-1 #khoi4 {
+              margin: 5% 0 0 -5%; } }
+      .container-fluid #box4 #box4-5 #box4-5-2 {
+        float: left; }
+        @media all and (max-width: 480px) {
+          .container-fluid #box4 #box4-5 #box4-5-2 {
+            margin: 15% 0 0 -5%; } }
+        .container-fluid #box4 #box4-5 #box4-5-2 #tron, .container-fluid #box4 #box4-5 #box4-5-2 #tron3 {
+          width: 20%;
+          height: auto;
+          float: left; }
+          .container-fluid #box4 #box4-5 #box4-5-2 #tron #tronme, .container-fluid #box4 #box4-5 #box4-5-2 #tron3 #tronme {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid orange; }
+            .container-fluid #box4 #box4-5 #box4-5-2 #tron #tronme #troncon, .container-fluid #box4 #box4-5 #box4-5-2 #tron3 #tronme #troncon {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              background: orange;
+              margin: 4px; }
+              .container-fluid #box4 #box4-5 #box4-5-2 #tron #tronme #troncon #chu6, .container-fluid #box4 #box4-5 #box4-5-2 #tron3 #tronme #troncon #chu6 {
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                display: block;
+                font-family: arial;
+                font-weight: bolder;
+                color: white; }
+        @media all and (max-width: 768px) {
+          .container-fluid #box4 #box4-5 #box4-5-2 #tron3 {
+            display: none; } }
+        .container-fluid #box4 #box4-5 #box4-5-2 #khoichu, .container-fluid #box4 #box4-5 #box4-5-2 #khoichu3 {
+          float: left;
+          width: 80%;
+          height: auto; }
+          .container-fluid #box4 #box4-5 #box4-5-2 #khoichu #chu4, .container-fluid #box4 #box4-5 #box4-5-2 #khoichu3 #chu4, .container-fluid #box4 #box4-5 #box4-5-2 #khoichu #chu5, .container-fluid #box4 #box4-5 #box4-5-2 #khoichu3 #chu5 {
+            width: 100%;
+            float: left;
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            font-size: 14px;
+            font-weight: bolder;
+            color: black; }
+          .container-fluid #box4 #box4-5 #box4-5-2 #khoichu #chu5, .container-fluid #box4 #box4-5 #box4-5-2 #khoichu3 #chu5 {
+            font-size: 13px;
+            color: gray;
+            margin: 0% 0 2% 0; }
+        @media all and (max-width: 768px) {
+          .container-fluid #box4 #box4-5 #box4-5-2 #khoichu3 {
+            display: none; } }
+      .container-fluid #box4 #box4-5 #box4-5-3 {
+        float: left;
+        width: 100%;
+        height: 250px; }
+        @media all and (max-width: 480px) {
+          .container-fluid #box4 #box4-5 #box4-5-3 {
+            margin: 5% 0 0 -5%; } }
+        .container-fluid #box4 #box4-5 #box4-5-3 #khoi5 {
+          float: left;
+          width: 100%;
+          height: 49%; }
+        .container-fluid #box4 #box4-5 #box4-5-3 #khoi6, .container-fluid #box4 #box4-5 #box4-5-3 #khoi7 {
+          float: left;
+          width: 48%;
+          height: 49%;
+          margin: 2% 2% 0 0; }
+        .container-fluid #box4 #box4-5 #box4-5-3 #khoi7 {
+          margin: 2% 0 0 2%; }
+>>>>>>> Khoi
