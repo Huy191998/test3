@@ -1,2 +1,215 @@
 .container-fluid {
   height: auto; }
+  .container-fluid .box5 {
+    height: 800px; }
+    .container-fluid .box5 .box51 {
+      float: left;
+      width: 100%;
+      height: 8%; }
+      .container-fluid .box5 .box51 .button1 {
+        float: left;
+        margin-top: 15px;
+        width: 5%;
+        height: 35px; }
+        .container-fluid .box5 .box51 .button1 .fa {
+          text-align: center;
+          font-size: 25px; }
+          .container-fluid .box5 .box51 .button1 .fa:hover {
+            color: #01DF01; }
+      .container-fluid .box5 .box51 .button2 {
+        float: left;
+        margin-top: 15px;
+        width: 20%;
+        height: 35px; }
+        .container-fluid .box5 .box51 .button2:hover {
+          color: #01DF01; }
+      .container-fluid .box5 .box51 .button3 {
+        float: left;
+        margin-top: 15px;
+        width: 72%;
+        height: 35px;
+        text-align: right;
+        padding: 0 10px; }
+        .container-fluid .box5 .box51 .button3:hover {
+          color: #01DF01; }
+      .container-fluid .box5 .box51 .button4 {
+        float: left;
+        margin-top: 15px;
+        width: 3%;
+        height: 35px;
+        text-align: right;
+        padding: 0 10px; }
+        .container-fluid .box5 .box51 .button4:hover {
+          color: #01DF01; }
+    .container-fluid .box5 .box52 {
+      float: left;
+      width: 100%;
+      height: 70%; }
+      .container-fluid .box5 .box52 .box521 {
+        float: left;
+        width: 32%;
+        height: 47%;
+        background: red;
+        margin-left: 2%;
+        margin-bottom: 2%; }
+        .container-fluid .box5 .box52 .box521 .box5221 {
+          float: left;
+          width: 50%;
+          height: 100%;
+          background: #FFF;
+          border: 1px solid #000;
+          overflow: hidden;
+          position: relative;
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); }
+          .container-fluid .box5 .box52 .box521 .box5221 img {
+            width: 100%;
+            height: 100%;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s; }
+            .container-fluid .box5 .box52 .box521 .box5221 img:hover {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              transform: scale(1.2);
+              opacity: .5; }
+          .container-fluid .box5 .box52 .box521 .box5221 .img2 {
+            width: 100%;
+            height: 100%;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            top: 0;
+            left: 0;
+            position: absolute; }
+            .container-fluid .box5 .box52 .box521 .box5221 .img2:hover {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              transform: scale(1.2);
+              opacity: 0; }
+        .container-fluid .box5 .box52 .box521 .box5222 {
+          float: right;
+          width: 48%;
+          height: 100%;
+          border: 1px solid #000; }
+          .container-fluid .box5 .box52 .box521 .box5222 .bx5 {
+            float: left;
+            width: 100%;
+            height: 40%;
+            background: #fff;
+            border: 1px solid #000;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+            .container-fluid .box5 .box52 .box521 .box5222 .bx5 h6 {
+              float: left;
+              width: 100%;
+              text-align: center;
+              height: 30px;
+              font-size: 14px;
+              line-height: 20px;
+              padding: 10px 0; }
+            .container-fluid .box5 .box52 .box521 .box5222 .bx5 .bx51 {
+              float: left;
+              width: 100%;
+              height: 20px; }
+              .container-fluid .box5 .box52 .box521 .box5222 .bx5 .bx51 .fa1 {
+                float: left;
+                margin-left: 15px; }
+              .container-fluid .box5 .box52 .box521 .box5222 .bx5 .bx51 .fa {
+                padding-left: 10px;
+                color: #ccc; }
+                .container-fluid .box5 .box52 .box521 .box5222 .bx5 .bx51 .fa:hover {
+                  color: #ff4; }
+            .container-fluid .box5 .box52 .box521 .box5222 .bx5 .h6 {
+              color: red; }
+              .container-fluid .box5 .box52 .box521 .box5222 .bx5 .h6:hover {
+                color: #01DF3A; }
+          .container-fluid .box5 .box52 .box521 .box5222 .bx05 {
+            float: left;
+            width: 100%;
+            height: 60%;
+            background: #fff; }
+            .container-fluid .box5 .box52 .box521 .box5222 .bx05 .bx051 {
+              float: left;
+              width: 50%;
+              height: 50%;
+              border: 1px solid #000;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+              .container-fluid .box5 .box52 .box521 .box5222 .bx05 .bx051 a {
+                text-decoration: none; }
+                .container-fluid .box5 .box52 .box521 .box5222 .bx05 .bx051 a .fa {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  text-align: center;
+                  line-height: 70px;
+                  font-size: 30px;
+                  color: #000; }
+                  .container-fluid .box5 .box52 .box521 .box5222 .bx05 .bx051 a .fa:hover {
+                    color: red; }
+  .container-fluid .box53 {
+    float: left;
+    width: 100%;
+    height: 22%; }
+    .container-fluid .box53 .box531 {
+      float: left;
+      width: 94%;
+      height: 20%;
+      background: #fff;
+      padding-left: 10px;
+      padding-top: 8px;
+      border-bottom: 3px solid #ccc;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .container-fluid .box53 .box531 a {
+        text-decoration: none; }
+        .container-fluid .box53 .box531 a h6 {
+          display: block;
+          width: 50%;
+          height: 100%;
+          color: #000; }
+          .container-fluid .box53 .box531 a h6:hover {
+            color: #08298A; }
+    .container-fluid .box53 .box532 {
+      float: left;
+      width: 6%;
+      height: 20%;
+      background: #fff;
+      padding-left: 10px;
+      padding-top: 8px;
+      border-bottom: 3px solid #ccc;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .container-fluid .box53 .box532 button {
+        float: left;
+        width: 45%;
+        height: 100%;
+        margin-top: -5px; }
+        .container-fluid .box53 .box532 button .fa {
+          float: left;
+          width: 100%;
+          height: 100%;
+          text-align: center; }
+    .container-fluid .box53 .box533 {
+      float: left;
+      width: 100%;
+      height: 70%;
+      margin-top: 1.5%;
+      background: #fff; }
+      .container-fluid .box53 .box533 .bx5331 {
+        float: left;
+        width: 20%;
+        height: 100%;
+        background: gray;
+        overflow: hidden; }
+        .container-fluid .box53 .box533 .bx5331 img {
+          width: 100%;
+          height: 100%;
+          -webkit-transition: 2s;
+          -o-transition: 2s;
+          transition: 2s; }
+          .container-fluid .box53 .box533 .bx5331 img:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1); }
