@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 $background: white
 $gach: #f1f1f1
@@ -9,6 +9,12 @@ $gach: #f1f1f1
 	font-family: Arial
 %btn-group
   margin-top: 15px
+$mobile: "(max-width: 480px)"
+@mixin responsive_480()
+	@content
+$tablet: "(max-width: 768px)"
+@mixin responsive_768()
+	@content
 .container-fluid
 	height: auto
 	.main
@@ -119,18 +125,7 @@ $gach: #f1f1f1
 		    	@extend %btn-group
 		    	border-right: black 3px solid
 		    	padding-left: 20px
-=======
-*
-	margin: 0
-	padding: 0
-$mobile: "(max-width: 480px)"
-@mixin responsive_480()
-	@content
-$tablet: "(max-width: 768px)"
-@mixin responsive_768()
-	@content
-.container-fluid
-	height: auto
+
 	#box2
 		margin: 0 auto
 		padding: 0 auto
@@ -243,5 +238,4 @@ $tablet: "(max-width: 768px)"
 
 								
 	
-						
->>>>>>> Linh
+					

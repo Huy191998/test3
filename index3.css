@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container-fluid .main .slide-show .d-block {
   height: 450px;
   width: 100%; }
@@ -111,13 +110,6 @@
       .container-fluid .main .menu3 .btn-group {
         border-right: black 3px solid;
         padding-left: 20px; }
-=======
-* {
-  margin: 0;
-  padding: 0; }
-
-.container-fluid {
-  height: auto; }
   .container-fluid #box2 {
     margin: 0 auto;
     padding: 0 auto;
@@ -234,4 +226,3 @@
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1); }
->>>>>>> Linh
