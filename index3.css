@@ -1,2 +1,25 @@
 .container-fluid {
   height: auto; }
+  .container-fluid .row7 .dung {
+    background: silver;
+    height: 500px; }
+    .container-fluid .row7 .dung .row71 .footer {
+      height: 500px; }
+      .container-fluid .row7 .dung .row71 .footer .row711 .f4 {
+        height: 500px;
+        border-right: 0.5px solid grey; }
+      .container-fluid .row7 .dung .row71 .footer .row711 .f8 {
+        height: 500px; }
+        .container-fluid .row7 .dung .row71 .footer .row711 .f8 .r81 {
+          height: 200px;
+          border-bottom: 0.5px solid grey; }
+        .container-fluid .row7 .dung .row71 .footer .row711 .f8 .r82 {
+          height: 300px; }
+          .container-fluid .row7 .dung .row71 .footer .row711 .f8 .r82 .c821 {
+            height: 300px; }
+  .container-fluid .end .to .to2 .cend {
+    height: 80px;
+    background: black; }
+    @media screen and (max-width: 767px) {
+      .container-fluid .end .to .to2 .cend {
+        margin-top: 1200px; } }
