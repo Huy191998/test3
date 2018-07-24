@@ -91,7 +91,7 @@ $tablet: "(max-width: 768px)"
 				font-size: 30px
 			.cart
 				position: absolute
-				left: 1150px
+				left: 80%
 				top: 50px
 				color: black
 				&:hover
@@ -99,8 +99,8 @@ $tablet: "(max-width: 768px)"
 			.logo 
 				position: absolute
 				bottom: -1px
-				width: 300px
-				left: 550px
+				width: 30%
+				left: 40%
 		.menu3
 		    background: white
 		    height: 10%
@@ -520,7 +520,7 @@ $tablet: "(max-width: 768px)"
 									font-family: arial
 									font-size: 14px
 									font-weight: bolder
-							#icon2:hover
+							#icon2 :hover
 								border: 1px solid red
 								background: #FFFF00
 								transform: scale(1.5)
@@ -539,7 +539,7 @@ $tablet: "(max-width: 768px)"
 										width: 90%
 										height: 90%
 										margin: 5%
-							#icon3:hover
+							#icon3 :hover
 								border: 1px solid red
 								background: #FFFF00
 								transform: scale(1.5)
@@ -964,4 +964,75 @@ $tablet: "(max-width: 768px)"
 					transition: 2s
 					&:hover
 						transform: scale(1.1)
+@media (max-width: 768px) 
+	@include responsive_768
+		.container-fluid
+			#box2
+				#box21
+					#box211	
+						.o1
+							margin-left: 0.6%
+							width: 49%
+							height: 98%
+						.o2
+							display: none
+							width: 2%
+					#box212
+						.o1
+							width: 49%
+							margin-left: 0.6%
+							height: 99%
+							h1
+								margin-top: 0%
+							hr
+								margin-top: 4%
+							h3
+								margin-top: 3%
+							.o21
+								width: 40%
+								height: 10%
+								margin-left: 30%
+								padding-top: 2%
+						.o2	
+							display: none
+							width: 2%
+@media (max-width: 480px) 
+	@include responsive_480
+		.container-fluid
+
+			#box2
+				#box21
+					#box211	
+						.o1
+							width: 2%
+							display: none
+						.o2	
+							display: block
+							width: 96%
+							height: 98%	
+							float: left		
+							margin-left: 2%
+							hr
+								margin-top: 4%
+							h3
+								margin-top: 3%
+							.o21
+								width: 40%
+								height: 10%
+								margin-left: 30%
+								padding-top: 2%
+								font-size: 15px
+					#box212
+						.o1
+							width: 2%
+							display: none
+						.o2	
+							display: block
+							width: 96%
+							height: 98%	
+							float: left		
+							margin-left: 2%
+
+			    
+
 
